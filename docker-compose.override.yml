@@ -2,7 +2,7 @@ Version: '3.4'
 Dienstleistungen:
   Netbox:
     Häfen:
-    - 8080:8080
+    - 8099:8099
     Bände:
     - /volume3/docker/netbox:/etc/netbox/config:z,ro
     - netbox-media-files:/opt/netbox/netbox/media:z,rw
